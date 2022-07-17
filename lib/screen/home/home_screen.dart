@@ -1,5 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:carousel_slider/carousel_controller.dart';
 import 'package:firebase_carousel_example/controller/controllers.dart';
 import 'package:firebase_carousel_example/screen/home/widgets/carousel_loading.dart';
 import 'package:firebase_carousel_example/screen/home/widgets/carousel_with_indicator.dart';

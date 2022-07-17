@@ -4,7 +4,7 @@ import '../model/carousel.dart';
 class BannerService {
   final bannersRef = FirebaseFirestore.instance.collection('banners').withConverter<CarouselModel>(
     fromFirestore: (snapshot, _) => CarouselModel.fromJson(snapshot.data()!),
-    toFirestore: (movie, _) => movie.toJson(),
+    toFirestore: (data, _) => data.toJson(),
   );
 
   Future<List<CarouselModel>> getBanners() async {
